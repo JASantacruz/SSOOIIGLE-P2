@@ -25,6 +25,7 @@ buscará la palabra "capítulo" dentro del libro "La-ultima-sirena.txt" con 10 h
 buscará la palabra "equipo" dentro del libro "17-LEYES-DEL-TRABAJO-EN-EQUIPO.txt" con 5 hilos
 
 LIMPIAR DIRECTORIO.
+
 Para limpiar el directorio, bastaría con la ejecución del comando
 
     `make clear`
