@@ -18,6 +18,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+#include <sstream>
+#include <cstring>
+#include <cctype>
+#include <string>
 #include "encuentro.h"
 #include "colores.h"
 
@@ -201,7 +205,7 @@ std::string limpiarLinea(std::string linea)
 ****************************************************************/
 void mostrarResultado()
 {
-    int counter = 1;
+    int counter = 0;
 
     while (!g_vEncontradas.empty())
     {
@@ -228,7 +232,7 @@ int main(int argc, char *argv[])
 
     if (argc != 4)
     {
-        std::cout << "Error en la linea de ordenes.\tSintaxis: buscador <nombre_fichero> <palabra> <num_hilos>" << std::endl;
+        std::cout << "Error en la linea de ordenes.\tSintaxis: buscador <nombre_fichero> <palabra> <num_hilos>." << std::endl;
         return EXIT_FAILURE;
     }
     std::string filename = argv[1];
@@ -237,7 +241,7 @@ int main(int argc, char *argv[])
     for (int i = 0; i < strlen(argv[3]); i++)
         if (!std::isdigit(argv[3][i]) || argv[3] <= 0)
         {
-            std::cout << "Error en la linea de ordenes. Debes introducir un valor numerico valido mayor que 0" << std::endl;
+            std::cout << "Error en la linea de ordenes. Debes introducir un valor numerico valido mayor que 0." << std::endl;
             return EXIT_FAILURE;
         }
 

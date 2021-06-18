@@ -1,16 +1,12 @@
-#include <iostream>
-#include <thread>
-#include <string>
-#include <cstring>
-#include <queue>
-#include <fstream>
-#include <cctype>
-#include <vector>
-#include <sstream>
-#include <algorithm>
-#include <functional>
-#include <mutex>
-
+/****************************************************************
+ * 
+ *              CLASE DONDE SE ENCUENTRA LA CLASE 
+ *              encontrado Y EL COMPARE_TO PARA LA 
+ *                      COLA CON PRIORIDAD
+ * 
+ *              Autor: José Antonio Santacruz Gallego
+ *              
+****************************************************************/
 class encontrado
 {
 public:
