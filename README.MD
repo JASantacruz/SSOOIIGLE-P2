@@ -1,7 +1,9 @@
 COMPILACIÓN DEL CÓDIGO.
 
 Para compilar el código, bastaría con ejecutar el comando
-`make`
+
+    `make`
+
 desde el directorio raiz.
 
 EJECUCIÓN DEL CÓDIGO.
