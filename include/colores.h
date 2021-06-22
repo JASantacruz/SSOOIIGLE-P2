@@ -1,6 +1,6 @@
 /****************************************************************
                 COLORES QUE USAREMOS EN
-                LA SALIDA ESTANDAR
+                    LA SALIDA ESTANDAR
 
                 Autor: José Antonio Santacruz Gallego
  ****************************************************************/

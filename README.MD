@@ -1,3 +1,6 @@
+REPOSITORIO EN GITHUB
+https://github.com/JASantacruz/SSOOIIGLE-P2
+
 COMPILACIÓN DEL CÓDIGO.
 
 Para compilar el código, bastaría con ejecutar el comando
