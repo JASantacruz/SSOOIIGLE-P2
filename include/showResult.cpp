@@ -17,7 +17,6 @@ void mostrarResultado()
                   << RESET << " " << g_vEncontradas.top().palabra_posterior << " ... " << std::endl;
         g_vEncontradas.pop();
         counter++;
-        std::this_thread::sleep_for(std::chrono::milliseconds(10));
     }
 
     std::cout << "\n\nVeces que aparece la palabra " << GREEN << g_vEncontradas.top().palabra_encontrada << RESET << ": " << YELLOW << counter << RESET << "\n"
